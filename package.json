@@ -1,0 +1,17 @@
+{
+  "name": "jasmintesting",
+  "version": "1.0.0",
+  "description": "this is for pure jasmin testing ",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "alkesh kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^5.1.1",
+    "karma": "^6.4.2",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-matchers": "^5.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+     <link rel="stylesheet" href="lib/jasmine.css">
+     <link rel="stylesheet" href="style.css">
+
+      <!-- <script type="text/javascript" src="lib/jasmine.js"></script>
+      <script type="text/javascript" src="lib/jasmine-html.js"></script>
+     
+      <script type="text/javascript" src="lib/boot0.js"></script>
+      <script type="text/javascript" src="lib/boot1.js"></script>
+    
+   
+
+    <script>
+        it("title should be right",()=> {
+            expect(document.title).toBe("my first spec");
+            console.log("running title check test");
+        })
+    </script> -->
+
+    <script>
+        window.onload=()=>{
+              showVersion();
+        }
+    </script>
+    <script type="text/javascript" src="calculator.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+   <div class="main-div">
+        <h1 class = "heading">Simple Calculator</h1>
+         <input type="text" class="input-box" onchange="calculate(this.value)"></input>
+         <div class ="result-div">
+         <p class="result-para">Result:<span id="resultdata"></span></p>
+         <p class = "version">Version <span id="version"></span></p>
+        </div>
+    </div> 
+</body>
+</html>
